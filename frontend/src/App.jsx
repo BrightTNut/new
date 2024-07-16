@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import "./App.css";
 import Getter from "./abi/Getter.json";
 import Web3 from "web3";
-const address = "0xe71dc18f611a8827FAf46023288dB994f96e5d39";
+const address = "0xbf97F3AbfCa02361c20FEEDcC76a459534B69059";
 function App() {
   const [state, setState] = useState({ web3: null, contract: null });
   const [data, setData] = useState(null);
@@ -23,8 +23,8 @@ function App() {
     const { contract } = state;
     async function readData() {
       const value = await contract.methods.getValue().call();
-      setData(value);
-      console.log("Data is :", data);
+      setData(Number(value));
+      console.log("Data is :", Number(data));
     }
     contract && readData();
   });

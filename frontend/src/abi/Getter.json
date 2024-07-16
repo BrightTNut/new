@@ -590,12 +590,12 @@
     "5777": {
       "events": {},
       "links": {},
-      "address": "0xeeE57465C405ACf5f4f44A4d22AA1732961036b7",
-      "transactionHash": "0x07274ac97f147502823ad6fe4b5436487faf1e049460ff91101af628f3020b6d"
+      "address": "0xbf97F3AbfCa02361c20FEEDcC76a459534B69059",
+      "transactionHash": "0xd483b64f016937345194882c4a25166acc59ac260657878ab494101c28d5d9ed"
     }
   },
   "schemaVersion": "3.0.1",
-  "updatedAt": "2024-07-14T12:49:51.307Z",
+  "updatedAt": "2024-07-16T12:12:34.987Z",
   "devdoc": {
     "methods": {}
   },
