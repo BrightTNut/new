@@ -24,7 +24,7 @@ function App() {
     async function readData() {
       const value = await contract.methods.getValue().call();
       setData(Number(value));
-      console.log("Data is :", Number(data));
+      console.log("Data is :", data);
     }
     contract && readData();
   });
